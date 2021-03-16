@@ -1,0 +1,40 @@
+.swiper-pagination {
+  top: 19%;
+}
+
+@media screen and (max-width: 640px) {
+  .swiper-pagination {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .swiper-pagination {
+    top: 25%;
+  }
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  left: 15%;
+  width: 15px;
+  height: 15px;
+  background-color: #FFF;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+@media screen and (max-width: 640px) {
+  .swiper-pagination-bullet {
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .swiper-pagination-bullet {
+    left: -37%;
+  }
+}
